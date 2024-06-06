@@ -54,8 +54,7 @@ body{
 	font-family: century;
 	text-align: center;
 	font-size: 80px;
-	height: 100px;
-	margin: auto auto auto 100px;
+	height: 80px;
 }
 .image {
 	background-image: url(Random_jacket.webp);
