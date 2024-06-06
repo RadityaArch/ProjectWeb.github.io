@@ -1,0 +1,75 @@
+body {
+    font-family: arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+}
+
+/* Top Navigation Bar */
+
+.topnav { 
+  overflow: hidden;
+  background-color: #010101;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  height: 50px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Register  */
+
+.main {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px
+        rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 500px;
+    margin: 100px auto auto auto;
+}
+
+.main h2 {
+    color: #010101;
+    margin-bottom: 20px;
+}
+
+.main label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+.main input[type="text"],
+.main input[type="email"],
+.main input[type="password"],
+.main select {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.main button[type="submit"] {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #010101;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}

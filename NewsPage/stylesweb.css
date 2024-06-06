@@ -1,0 +1,319 @@
+body{
+	font: 10px/20px arial, sans-serif;
+	background-color: lightgrey;
+	color: #010101;
+	background-image: url(abstractbg.jpg);
+	background-size: 100%;
+	margin: 0;
+}
+
+/* Top Navigation Bar */
+
+.topnav { 
+  overflow: hidden;
+  background-color: #010101;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  Height: 50px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.container{
+	width: 800px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 50px auto 0px auto;
+	background-color: white;
+}
+.header{
+	padding: 20px;
+}
+.judul1{
+	font-size: 40px;
+	font-weight: bold;
+}
+.judul2{
+	font-size: 40px;
+	font-weight: bold;
+}
+.social{
+	margin-top: 20px;
+	margin-right: 20px;
+	display: inline-block;
+	font-size: 16px;
+}
+
+/* Button Login */
+
+.login{
+	position: relative;
+	top: 8px;
+	vertical-align: top;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+  	padding: 0px 10px; 
+ 	width: 50px;
+  	height: 32px;
+  	color: white;
+  	background: #010101;
+  	text-decoration: none;
+  	align-items: center;
+  	display: inline-block;
+}
+.login span{
+	color: white;
+	display: inline-block;
+	height: 16px;
+	min-width: 60px;
+    opacity: 1;
+    padding: 0 8px;
+    top: 3.5px;
+    position: relative;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+/* Button Instagram */
+
+.instagram{
+	position: relative;
+	top: 8px;
+	vertical-align: top;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+  	padding: 0px 10px; 
+ 	width: 110px;
+  	height: 32px;
+  	color: white;
+  	background: #010101;
+  	text-decoration: none;
+  	align-items: center;
+  	display: inline-block;
+}
+.instagram a{
+	text-decoration: none;
+}
+.instagram img{
+	display: inline-block;
+    height: 16px;
+    width: 16px;
+    position: relative;
+    top: 4px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.instagram span{
+	color: white;
+	display: inline-block;
+	height: 16px;
+	min-width: 60px;
+    opacity: 1;
+    padding: 0 8px;
+    top: 3.5px;
+    position: relative;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.instagram:hover{
+	background: #1E3232;
+}
+
+/* Button Facebook */
+
+.facebook{
+	position: relative;
+	top: 8px;
+	vertical-align: top;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+  	padding: 0px 10px; 
+ 	width: 110px;
+  	height: 32px;
+  	color: white;
+  	background: #010101;
+  	text-decoration: none;
+  	align-items: center;
+  	display: inline-block;
+}
+.facebook a{
+	text-decoration: none;
+}
+.facebook img{
+	display: inline-block;
+    height: 16px;
+    width: 16px;
+    position: relative;
+    top: 4px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.facebook span{
+	color: white;
+	display: inline-block;
+	height: 16px;
+	min-width: 60px;
+    opacity: 1;
+    padding: 0 8px;
+    top: 3.5px;
+    position: relative;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.facebook:hover{
+	background: #1E3232;
+}
+
+/* Button Reddit */
+
+.reddit{
+	position: relative;
+	top: 8px;
+	vertical-align: top;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+  	padding: 0px 10px; 
+ 	width: 110px;
+  	height: 32px;
+  	color: white;
+  	background: #010101;
+  	text-decoration: none;
+  	align-items: center;
+  	display: inline-block;
+}
+.reddit a{
+	text-decoration: none;
+}
+.reddit img{
+	display: inline-block;
+    height: 16px;
+    width: 16px;
+    position: relative;
+    top: 4px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.reddit span{
+	color: white;
+	display: inline-block;
+	height: 16px;
+	min-width: 40px;
+    opacity: 1;
+    padding: 0 20px;
+    top: 3.5px;
+    position: relative;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.reddit:hover{
+	background: #1E3232;
+}
+
+/* Button GitHub */
+
+.github{
+	position: relative;
+	top: 8px;
+	vertical-align: top;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+  	padding: 0px 10px; 
+ 	width: 110px;
+  	height: 32px;
+  	color: white;
+  	background: #010101;
+  	text-decoration: none;
+  	align-items: center;
+  	display: inline-block;
+}
+.github a{
+	text-decoration: none;
+}
+.github img{
+	display: inline-block;
+    height: 16px;
+    width: 16px;
+    position: relative;
+    top: 4px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.github span{
+	color: white;
+	display: inline-block;
+	height: 16px;
+	min-width: 40px;
+    opacity: 1;
+    padding: 0 19px;
+    top: 3.5px;
+    position: relative;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.github:hover{
+	background: #1E3232;
+}
+
+
+
+.gambar{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	height: 300px;
+	width: 760px;
+	margin-left: 20px;
+	background-image: url(Random_jacket.webp);
+	border-radius: 5px;
+	background-size: cover;
+}
+.content{
+	padding: 20px;
+}
+.content h2{
+	font-size: 25px;
+	font-weight: bold;
+}
+.content .penulis{
+	font-size: 12px;
+	margin-top: -5px;
+}
+.content p{
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+.footer{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+	background-color: #010101;
+}
+.footer .copy{
+	color: white;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

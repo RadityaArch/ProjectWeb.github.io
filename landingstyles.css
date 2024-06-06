@@ -1,0 +1,96 @@
+body{
+	font: 10px/20px arial, sans-serif;
+	background-color: lightgrey;
+	color: #010101;
+	background-image: 
+		linear-gradient(
+       	rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ),
+		url(workbg2.jpg);
+	background-size: 100%;
+	margin: 0;
+}
+/* Top Navigation Bar */
+
+.topnav { 
+  overflow: hidden;
+  background-color: #010101;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  height: 50px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+@font-face {
+    font-family: Old-London;
+    src: url(OldLondon.ttf);
+}
+
+.container {
+	margin: 200px auto auto auto;
+	text-align: center;
+}
+.text1 {
+	color: white;
+	font-family: Old-London;
+	text-align: center;
+	font-size: 140px;
+}
+.text2 {
+	color: white;
+	font-family: century;
+	text-align: center;
+	font-size: 80px;
+	height: 100px;
+	margin: auto auto auto 100px;
+}
+.image {
+	background-image: url(Random_jacket.webp);
+	background-size: 250px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	width: 250px;
+	height: 125px;
+	margin: auto;
+	padding: auto;
+	text-align: center;
+	position: relative;
+	vertical-align: middle;
+	display: flex;
+	justify-content: center;
+}
+.link {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	background-color: #010101;
+	margin: auto;
+	width: 250px;
+	height: 50px;
+	text-align: center;
+	position: relative;
+	vertical-align: middle;
+	display: flex;
+	justify-content: center;
+}
+.link :hover{
+	background-color: #ddd;
+	color: black;
+}
+.link a{
+	margin: auto;
+	padding: 15px 70px;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
